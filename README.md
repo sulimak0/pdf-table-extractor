@@ -1,7 +1,5 @@
 # pdf-table-extraction
 
-Scripts and notes on extracting table data from PDF files into spreadsheets.
-
 ## The Problem
 
 PDFs store text as positioned characters on a canvas -- not as structured rows and columns. When you open a PDF that "looks like" a table, the underlying data is just text fragments placed at specific coordinates. There is no table object to read. This makes extracting tabular data from PDFs one of the most common (and frustrating) data wrangling tasks.
